@@ -8,10 +8,10 @@ namespace HomeworkClass2
         {
             // Task 01
             Console.WriteLine("Enter the first number: ");
-            bool firstNumber = int.TryParse(Console.ReadLine(), out int firstParsedNumber);
+            bool firstNumber = double.TryParse(Console.ReadLine(), out double firstParsedNumber);
 
             Console.WriteLine("Enter the second number: ");
-            bool secondNumber = int.TryParse(Console.ReadLine(), out int secondParsedNumber);
+            bool secondNumber = double.TryParse(Console.ReadLine(), out double secondParsedNumber);;
 
             Console.WriteLine("Enter the operation sign: + , - , / , * ");
             string operatorInput = Console.ReadLine();
@@ -20,19 +20,19 @@ namespace HomeworkClass2
            
             {
                 if (operatorInput == "+") {
-                    int addition = firstParsedNumber + secondParsedNumber;
+                    double addition = firstParsedNumber + secondParsedNumber;
                     Console.WriteLine("The sum of the to first and the second numbers is: " + addition);
                 }
                 if (operatorInput == "-") {
-                        int substractResult = firstParsedNumber - secondParsedNumber;
+                        double substractResult = firstParsedNumber - secondParsedNumber;
                         Console.WriteLine("Substraction from the first and the second number is: " + substractResult);
                     }
                 if (operatorInput == "*") {
-                    int multiplication = firstParsedNumber * secondParsedNumber;
+                    double multiplication = firstParsedNumber * secondParsedNumber;
                     Console.WriteLine("Multiplication from the first and the second number is: " + multiplication);
                 }
                 if (operatorInput == "/") {
-                    int division = firstParsedNumber / secondParsedNumber;
+                    double division = firstParsedNumber / secondParsedNumber;
                     Console.WriteLine("The result from dividing the two numbers is: " + division);
                 }
             }
