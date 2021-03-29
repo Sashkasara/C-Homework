@@ -16,42 +16,30 @@ namespace HomeworkClass2
             Console.WriteLine("Enter the operation sign: + , - , / , * ");
             string operatorInput = Console.ReadLine();
 
-            if (operatorInput == "+")
+            if (firstNumber && secondNumber)
+           
             {
-                if (firstNumber && secondNumber)
-                {
+                if (operatorInput == "+") {
                     int addition = firstParsedNumber + secondParsedNumber;
                     Console.WriteLine("The sum of the to first and the second numbers is: " + addition);
                 }
-
-            }
-
-            if (operatorInput == "-")
-            {
-                if (firstNumber && secondNumber)
-                {
-                    int substractResult = firstParsedNumber - secondParsedNumber;
-                    Console.WriteLine("Substraction from the first and the second number is: " + substractResult);
-                }
-            }
-
-            if (operatorInput == "*")
-            {
-                if (firstNumber && secondNumber)
-                {
+                if (operatorInput == "-") {
+                        int substractResult = firstParsedNumber - secondParsedNumber;
+                        Console.WriteLine("Substraction from the first and the second number is: " + substractResult);
+                    }
+                if (operatorInput == "*") {
                     int multiplication = firstParsedNumber * secondParsedNumber;
                     Console.WriteLine("Multiplication from the first and the second number is: " + multiplication);
                 }
-            }
-
-            if (operatorInput == "/")
-            {
-                if (firstNumber && secondNumber)
-                {
+                if (operatorInput == "/") {
                     int division = firstParsedNumber / secondParsedNumber;
                     Console.WriteLine("The result from dividing the two numbers is: " + division);
                 }
             }
+            Console.ReadLine();
+            
+            
+            }
         }
     }
-}
+
