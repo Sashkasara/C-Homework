@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class_04_SubStringExercise"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class_04_DateAndTimeExercise", "Class_04_DateAndTimeExercise\Class_04_DateAndTimeExercise.csproj", "{0CFDAACE-5D5F-42F4-8862-E14008441D20}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class_04_SumTheValuesFromTheArray", "Class_04_SumTheValuesFromTheArray\Class_04_SumTheValuesFromTheArray.csproj", "{6FC00D0B-665E-4949-91CC-C11B6F5DA403}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class_04_ArrayWithNames_AddingNamesFromTheConsoleExercise", "Class_04_ArrayWithNames_AddingNamesFromTheConsoleExercise\Class_04_ArrayWithNames_AddingNamesFromTheConsoleExercise.csproj", "{608AB5CD-77B6-48DB-8DCC-1225B0A848EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{0CFDAACE-5D5F-42F4-8862-E14008441D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CFDAACE-5D5F-42F4-8862-E14008441D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CFDAACE-5D5F-42F4-8862-E14008441D20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FC00D0B-665E-4949-91CC-C11B6F5DA403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FC00D0B-665E-4949-91CC-C11B6F5DA403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FC00D0B-665E-4949-91CC-C11B6F5DA403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FC00D0B-665E-4949-91CC-C11B6F5DA403}.Release|Any CPU.Build.0 = Release|Any CPU
+		{608AB5CD-77B6-48DB-8DCC-1225B0A848EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{608AB5CD-77B6-48DB-8DCC-1225B0A848EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{608AB5CD-77B6-48DB-8DCC-1225B0A848EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{608AB5CD-77B6-48DB-8DCC-1225B0A848EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
