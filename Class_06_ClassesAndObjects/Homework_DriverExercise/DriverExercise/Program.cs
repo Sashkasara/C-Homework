@@ -132,7 +132,7 @@ namespace DriverExercise
                 }
                 else
                 {
-                    Console.WriteLine($"What a close race by {firstCar.Driver.Name} and {secondCar.Driver.Name} it's A TIE! ");
+                    Console.WriteLine($"The race between {firstCar.Driver.Name} and {secondCar.Driver.Name} was thrilling! ");
                 }
             }
         }
