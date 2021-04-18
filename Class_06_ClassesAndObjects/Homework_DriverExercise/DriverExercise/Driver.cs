@@ -6,13 +6,15 @@ namespace DriverExercise
 {
     class Driver
     {
-        // Make a class Driver. 
-        public class Driver
+        // Make a class Driver.
+        public string Name { get; set; }
+        public int Skill { get; set; }
+
+        public Driver(string name, int skill)
         {
-
+            Name = name;
+            Skill = skill;
         }
-        
-           
 
-        }
     }
+}
