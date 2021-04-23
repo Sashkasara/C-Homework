@@ -13,12 +13,12 @@ namespace Class_08_CollectionsHomework.Classes
         public Genre FavoriteMusicType { get; set; }
         public List<Song> FavoriteSongs { get; set; }
 
-        public Person(string firstName, string lastName, int age, Genre favoritMusic)
+        public Person(string firstName, string lastName, int age, Genre favoriteMusic)
         {
             FirstName = firstName;
             LastName = lastName;
             Age = age;
-            FavoriteMusicType = favoritMusic;
+            FavoriteMusicType = favoriteMusic;
             FavoriteSongs = new List<Song>();
         }
 
